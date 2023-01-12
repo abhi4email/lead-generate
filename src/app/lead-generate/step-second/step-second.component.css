@@ -1,0 +1,17 @@
+.btn-outline-primary {
+    color: #656565;
+    border-color: #656565;
+  }
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #50c8ea;
+    border-color: #50c8ea;
+  }
+ .btn-check:checked + .btn-outline-primary {
+    color: #fff;
+    background-color: #50c8ea;
+    border-color: #50c8ea;
+  }
+  .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.5);
+  }

@@ -1,0 +1,31 @@
+
+img{max-width: 100%;}
+.technologies-names{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.button-box{
+    display: inline-block;
+    border: 1px solid #ededed;
+    padding:6px 10px;
+    background: #f7f7f7;
+    font-size: 14px;
+}
+.icon{width: 32px;display: inline-block;margin-right: 5px;}
+
+@media only screen and (max-width:768px){
+    
+      .technologies-names {
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px ;
+      }
+      
+      .icon{width: 24px;}
+}
+@media only screen and (max-width:575px){
+    
+      .technologies-names {
+        grid-template-columns: repeat(2,1fr);
+      }
+}

@@ -1,0 +1,123 @@
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-12  g-0 mobile-off">
+                <app-sidebar></app-sidebar>
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="right-panel">
+                    
+                <div class="p-3">
+                    <div class="desktop-none mobile-on">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo py-4"><img src="../../../assets/images/developers-iq-logo.png"/></div>
+                        <span class="indicator blue10">Step 1/3</span>
+                       </div>
+                    </div>
+                   <div class="d-flex justify-content-between align-items-center">
+                    <h1><b>What skills are you looking for?</b></h1>
+                    <span class="indicator blue10 step-off">Step 1/3</span>
+                   </div>
+                    <div class="technologies-names py-4">
+                        <!-- <div class="button-box" *ngFor="let item of courselist" >
+                            <div (click)="submitcourse(item)">
+                            <span class="icon"><img src="../../../assets/images/icons/angular.png" title="php" alt="php"/></span>
+                            <span >{{item}}</span>
+                        </div>
+                        </div>                         -->
+                        <div class="button-box">
+                            <div (click)="reactToggle()" #div>
+                            <span class="icon"><img src="../../../assets/images/icons/React.png" title="php" alt="php"/></span>
+                            <span>React js</span>
+                            </div>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/node-js.png" title="php" alt="php"/></span>
+                            <span>Node.js</span>
+                        </div>                        
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/php.png" title="php" alt="php"/></span>
+                            <span>PHP</span>
+                            <span></span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/wordpress.png" title="php" alt="php"/></span>
+                            <span>Wordpress</span>
+                        </div>
+                        
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/magento.png" title="php" alt="php"/></span>
+                            <span>Magento</span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/laravel.png" title="php" alt="php"/></span>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/drupal.png" title="php" alt="php"/></span>
+                            <span>Drupal</span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/aws.png" title="php" alt="php"/></span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/android.png" title="php" alt="php"/></span>
+                            <span>Android</span>
+                        </div>
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/iphone.png" title="php" alt="php"/></span>
+                            <span>iphone</span>
+                        </div>
+                        
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/ui-ux.png" title="php" alt="php"/></span>
+                            <span>UI/UX</span>
+                        </div>
+
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/other.png" title="php" alt="php"/></span>
+                            <span>Other</span>
+                        </div>
+
+                        <div class="button-box">
+                            <span class="icon"><img src="../../../assets/images/icons/dout.png" title="php" alt="php"/></span>
+                            <span>Not Sure</span>
+                        </div>
+                        
+                       
+                    </div>
+                    <div *ngFor="let item of selectedcourselist">{{item}}</div>
+                    <div class="col-12">
+                        <div class="search mb-3">
+                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search 60+ Skills...">
+                            <datalist id="datalistOptions">
+                              <option value="San Francisco">
+                              <option value="New York">
+                              <option value="Seattle">
+                              <option value="Los Angeles">
+                              <option value="Chicago">
+                            </datalist>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Work Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary" routerLink = "../../lead-generate/step-second">Continue</button>
+                    </div>
+                </div>
+                
+                
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background: #ffffff !important; 
+    font-family: 'Roboto', sans-serif;
+}
+ul{margin: 0px;padding:0px;text-align: left;}
+ul li{margin: 0px;padding: 0px;list-style: none;padding: 10px;}
+.top-padding{padding-top: 30px;}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #2f55d4;
+    border-color: #2f55d4;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+}
+.logo{
+    width: 120px;
+}
+.logo img{width: 100%;}
+.right-panel{width:90%;margin:3rem auto;}
+.indicator{ background: #ededed; border-radius:10px;width: auto; padding:10px;}
+.blue10{background-color: #d4eeff;}
+.desktop-none{display: none;}
+
+.bg-primary {
+    background-color: #02a1e7 !important;
+  }
+.btn-primary {
+    color: #fff;
+    background: #15a6d0;
+    border-color: #15a6d0;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+  }
+  button{
+    width: 120px;
+    background: #15a6d0;
+    padding:10px 20px !important
+   }
+   .btn-primary:hover {
+    color: #fff;
+    background-color: #1baed9;
+    border-color: #1baed9;
+  }
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #1baed9;
+    border-color: #1baed9;
+    box-shadow: 0 0 0 .10rem rgba(49,132,253,.5);
+  }
+.search input{
+     height: 50px;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+ }
+
+ .tick-icon {
+  float: right;
+  background: #ededed;
+  padding: 10px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+justify-content: center;
+align-items: center;
+background: #18d76e;
+color: #ffffff;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  margin: 5px 5px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+  background: #15a6d0;
+  width: 30px;
+}
+@media only screen and (max-width:992px){
+    .mobile-off{display: none;}
+   
+}
+
+@media only screen and (max-width:768px){
+    .mobile-on{display: block;}
+    .mobile-off{display: none;}
+    .step-off{display: none;}
+    .right-panel {
+        width: 100%;
+        margin: 0rem auto;
+      }
+      .logo {
+        width: 100px;
+      }
+      
+}
