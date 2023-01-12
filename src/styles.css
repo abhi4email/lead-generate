@@ -38,11 +38,11 @@ img {
     border-color: #15a6d0;
     box-shadow: 0 8px 14px rgba(47,85,212,.2);
   }
-  button{
+  /* button{
     width: 120px;
     background: #15a6d0;
     padding:10px 20px !important
-   }
+   } */
    .btn-primary:hover {
     color: #fff;
     background-color: #1baed9;
